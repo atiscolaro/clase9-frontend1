@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 12px;
+    font-weight: bold;
+    width: 1024px;
+}
+
+main {
+    width: 1024px;
+}
+
+
+
+.titulo {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 45px;
+    padding: 30px;
+    padding-left: 15px;
+    background-color: #00669F;
+}
+
+.card {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    height: 530px;
+    width: 300px;
+    background-color: #F3F3F3;
+    background-image: url("images/batmanfondo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 230px;
+    left: 32px;
+
+}
+
+.card2 {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    height: 530px;
+    width: 300px;
+    background-color: #F3F3F3;
+    background-image: url("images/batmanfondo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 230px;
+    left: 80px;
+
+}
+
+.card3 {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    height: 530px;
+    width: 300px;
+    background-color: #F3F3F3;
+    background-image: url("images/harleyfondo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 230px;
+    left: 55px;
+
+}
+
+.titbatman {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    bottom: 212px;
+    left: 85.4px;
+    font-size: 30px;
+    font-weight: normal;   
+}
+
+.titharley {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    bottom: 212px;
+    left: 63.25px;
+    font-size: 30px;
+    font-weight: normal;   
+}
+.textobatman{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    bottom: 80px;
+    font-size: 16px;
+    padding: 0 16px;
+}
+
+.textoharley{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    bottom: 80px;
+    font-size: 16px;
+    padding: 0 16px;
+}
+
+
+.perfilbatman {
+    background-image: url('./images/batmanperfil.png');
+    width: 120px;
+    height: 118px;
+    border-radius: 50vh;
+    position: absolute;
+    margin: 134px 91px;
+}
+
+.perfilharley {
+    background-image: url('./images/harleyperfil.png');
+    width: 120px;
+    height: 118px;
+    border-radius: 50vh;
+    position: absolute;
+    margin: 134px 91px;
+}
+
+.corazon {
+    background-image: url('./images/Vector.png');
+    width: 30px;
+    height: 27px;
+    position: absolute;
+    margin: 16px 21px ;
+}
+
+.vermas {
+    background-color: #00669F;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 128.78px;
+    height: 48.52px;
+    position: absolute;
+    text-align: center;
+    padding: 13.58px;
+    bottom: 12px;
+    left: 85px;
+}
+
+
+footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+    padding: 15px;
+    padding-left: 15px;
+    background-color: #00669F;
+    position: absolute;
+    width: 1024px;
+    margin: 400px 0 0 0;
+
+}
